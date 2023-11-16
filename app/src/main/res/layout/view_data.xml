@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.android.volley.toolbox.NetworkImageView
+        android:id="@+id/imgvolley"
+        android:layout_marginTop="8dp"
+        android:layout_width="150dp"
+        android:layout_height="100dp"
+        android:src="@mipmap/ic_launcher">
+
+    </com.android.volley.toolbox.NetworkImageView>
+
+    <TextView
+        android:layout_marginLeft="8dp"
+        android:id="@+id/txtjudul"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+    </TextView>
+
+</LinearLayout>
